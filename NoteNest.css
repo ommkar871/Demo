@@ -283,6 +283,27 @@ a{
    
    
 }
+.trendSrt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.more{
+    color:white;
+     z-index:2;
+    transform:translateY(-5rem);
+    font-size: 1.5rem;
+    font-family: "Monteserat",sans-serif;
+    font-weight: 700;
+    background-color: transparent;
+    backdrop-filter: blur(2rem);
+    
+    padding:0.2rem 0.5rem;
+}
+.more:hover{
+    /* background-color: white; */
+    color:pink;
+}
 #heading{
     
     width:100vw;
@@ -303,12 +324,26 @@ a{
     font-style: italic;
     
 }
+.latestNotes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #latestImg1{
     background-image: url("mathNote.png");
     background-size: cover;
 }
 #latestImg2{
     background-image: url("BeNote.png");
+    background-size: cover;
+}
+#latestImg3{
+    background-image: url("bme2Note.png");
+    background-size: cover;
+}
+#latestImg4{
+    background-image: url("opam.png");
     background-size: cover;
 }
 .footer{
